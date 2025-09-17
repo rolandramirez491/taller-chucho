@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace capaNegocio
+namespace capaDatos
 {
-    public class Class1
+    public class CD_RegistroVentas
     {
+        
     }
 }

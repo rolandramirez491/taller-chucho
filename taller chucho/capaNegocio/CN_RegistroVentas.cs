@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-namespace capaDatos
+using capaNegocio;
+namespace capaNegocio
 {
-    public class Class1
+    public class CN_RegistroVentas
     {
+
     }
 }
