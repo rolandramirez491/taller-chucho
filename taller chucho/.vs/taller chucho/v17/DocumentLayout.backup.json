@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\usuario\\Documents\\GitHub\\taller-chucho\\taller chucho\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0C76D364-A054-4501-ACB6-4B065F693623}|capaPresentacion\\capaPresentacion.csproj|c:\\users\\usuario\\documents\\github\\taller-chucho\\taller chucho\\capapresentacion\\listarventas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0C76D364-A054-4501-ACB6-4B065F693623}|capaPresentacion\\capaPresentacion.csproj|solutionrelative:capapresentacion\\listarventas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C76D364-A054-4501-ACB6-4B065F693623}|capaPresentacion\\capaPresentacion.csproj|c:\\users\\usuario\\documents\\github\\taller-chucho\\taller chucho\\capapresentacion\\gestionventas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0C76D364-A054-4501-ACB6-4B065F693623}|capaPresentacion\\capaPresentacion.csproj|solutionrelative:capapresentacion\\gestionventas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C76D364-A054-4501-ACB6-4B065F693623}|capaPresentacion\\capaPresentacion.csproj|c:\\users\\usuario\\documents\\github\\taller-chucho\\taller chucho\\capapresentacion\\buscarcliente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0C76D364-A054-4501-ACB6-4B065F693623}|capaPresentacion\\capaPresentacion.csproj|solutionrelative:capapresentacion\\buscarcliente.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C76D364-A054-4501-ACB6-4B065F693623}|capaPresentacion\\capaPresentacion.csproj|c:\\users\\usuario\\documents\\github\\taller-chucho\\taller chucho\\capapresentacion\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0C76D364-A054-4501-ACB6-4B065F693623}|capaPresentacion\\capaPresentacion.csproj|solutionrelative:capapresentacion\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5507F72-EDC9-4C3D-A6C5-EAB36CBC3982}|capaDatos\\capaDatos.csproj|c:\\users\\usuario\\documents\\github\\taller-chucho\\taller chucho\\capadatos\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5507F72-EDC9-4C3D-A6C5-EAB36CBC3982}|capaDatos\\capaDatos.csproj|solutionrelative:capadatos\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E3458D35-6B21-44CC-9B44-15D582122615}|capaNegocio\\capaNegocio.csproj|c:\\users\\usuario\\documents\\github\\taller-chucho\\taller chucho\\capanegocio\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3458D35-6B21-44CC-9B44-15D582122615}|capaNegocio\\capaNegocio.csproj|solutionrelative:capanegocio\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ListarVentas.aspx",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\taller-chucho\\taller chucho\\capaPresentacion\\ListarVentas.aspx",
+              "RelativeDocumentMoniker": "capaPresentacion\\ListarVentas.aspx",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\taller-chucho\\taller chucho\\capaPresentacion\\ListarVentas.aspx",
+              "RelativeToolTip": "capaPresentacion\\ListarVentas.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-17T19:46:12.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GestionVentas.aspx",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\taller-chucho\\taller chucho\\capaPresentacion\\GestionVentas.aspx",
+              "RelativeDocumentMoniker": "capaPresentacion\\GestionVentas.aspx",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\taller-chucho\\taller chucho\\capaPresentacion\\GestionVentas.aspx",
+              "RelativeToolTip": "capaPresentacion\\GestionVentas.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-17T19:40:27.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BuscarCliente.aspx",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\taller-chucho\\taller chucho\\capaPresentacion\\BuscarCliente.aspx",
+              "RelativeDocumentMoniker": "capaPresentacion\\BuscarCliente.aspx",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\taller-chucho\\taller chucho\\capaPresentacion\\BuscarCliente.aspx",
+              "RelativeToolTip": "capaPresentacion\\BuscarCliente.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-17T19:36:59.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "default.aspx",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\taller-chucho\\taller chucho\\capaPresentacion\\default.aspx",
+              "RelativeDocumentMoniker": "capaPresentacion\\default.aspx",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\taller-chucho\\taller chucho\\capaPresentacion\\default.aspx",
+              "RelativeToolTip": "capaPresentacion\\default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-09-17T19:26:19.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\taller-chucho\\taller chucho\\capaDatos\\Class1.cs",
+              "RelativeDocumentMoniker": "capaDatos\\Class1.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\taller-chucho\\taller chucho\\capaDatos\\Class1.cs",
+              "RelativeToolTip": "capaDatos\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T19:22:41.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\usuario\\Documents\\GitHub\\taller-chucho\\taller chucho\\capaNegocio\\Class1.cs",
+              "RelativeDocumentMoniker": "capaNegocio\\Class1.cs",
+              "ToolTip": "C:\\Users\\usuario\\Documents\\GitHub\\taller-chucho\\taller chucho\\capaNegocio\\Class1.cs",
+              "RelativeToolTip": "capaNegocio\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T19:22:22.603Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
