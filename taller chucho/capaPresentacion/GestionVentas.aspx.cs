@@ -1,4 +1,5 @@
-﻿using System;
+﻿using capaNegocio;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,6 +13,12 @@ namespace capaPresentacion
         protected void Page_Load(object sender, EventArgs e)
         {
 
+        }
+        CN_RegistroVentas ventas = new CN_RegistroVentas();
+
+        protected void btnRegistrar_Click(object sender, EventArgs e)
+        {
+            ventas.Venta(int.Parse(txtId.Text), txtFecha.Text, txtOrigen.Text,txtDestino , int.Parse(txtValor.Text));
         }
     }
 }

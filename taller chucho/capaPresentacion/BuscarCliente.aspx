@@ -12,10 +12,10 @@
         <div>
             <asp:Label ID="lblId" runat="server" Text="Identificacion"></asp:Label>
             <asp:TextBox ID="txtId" runat="server"></asp:TextBox>
-            <asp:Button ID="btnBuscar" runat="server" Text="Buscar Cliente" />
-            <asp:Label ID="lblNomb" runat="server" Text=""></asp:Label>
-            <asp:Label ID="lblApell" runat="server" Text=""></asp:Label>
-            <asp:Label ID="lblTel" runat="server" Text=""></asp:Label>
+            <asp:Button ID="btnBuscar" runat="server" Text="Buscar Cliente" OnClick="btnBuscar_Click" />
+            <asp:Label ID="lblNombC" runat="server" Text=""></asp:Label>
+            <asp:Label ID="lblApellC" runat="server" Text=""></asp:Label>
+            <asp:Label ID="lblTelC" runat="server" Text=""></asp:Label>
         </div>
     </form>
 </body>

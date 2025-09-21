@@ -22,7 +22,7 @@
             <asp:Label ID="lblValor" runat="server" Text="Valor Del Tiquete">
 
             </asp:Label><asp:TextBox ID="txtValor" runat="server"></asp:TextBox>
-            <asp:Button ID="btnRegistrar" runat="server" Text="Registrar Venta" />
+            <asp:Button ID="btnRegistrar" runat="server" Text="Registrar Venta" OnClick="btnRegistrar_Click" />
         </div>
     </form>
 </body>

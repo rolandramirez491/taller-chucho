@@ -51,13 +51,31 @@ namespace capaPresentacion
         protected global::System.Web.UI.WebControls.Label lblNomb;
 
         /// <summary>
+        /// Control txtNomb.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtNomb;
+
+        /// <summary>
+        /// Control lblApell.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblApell;
+
+        /// <summary>
         /// Control txtApell.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label txtApell;
+        protected global::System.Web.UI.WebControls.TextBox txtApell;
 
         /// <summary>
         /// Control lblTel.

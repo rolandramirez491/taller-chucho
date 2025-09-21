@@ -51,30 +51,30 @@ namespace capaPresentacion
         protected global::System.Web.UI.WebControls.Button btnBuscar;
 
         /// <summary>
-        /// Control lblNomb.
+        /// Control lblNombC.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblNomb;
+        protected global::System.Web.UI.WebControls.Label lblNombC;
 
         /// <summary>
-        /// Control lblApell.
+        /// Control lblApellC.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblApell;
+        protected global::System.Web.UI.WebControls.Label lblApellC;
 
         /// <summary>
-        /// Control lblTel.
+        /// Control lblTelC.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblTel;
+        protected global::System.Web.UI.WebControls.Label lblTelC;
     }
 }
