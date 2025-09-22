@@ -16,14 +16,17 @@ namespace capaDatos
         {
             registro.Add($"ID: {id}, Nombre: {nombre}, Apellido: {apellido}, Teléfono: {telefono}");
         }
-        public void GuardarVenta(int id, string fecha, string origen,string destino, int valor)
+        public void GuardarVenta(int id, string nombre,string apellido,int telefono,string fecha, string origen,string destino, int valor)
         {
-            registroV.Add($"ID: {id}, Fecha: {fecha}, Origen: {origen},Destino: {destino}, Valor: {valor}");
+            registroV.Add($"ID: {id},Nombre: {nombre},Apellido: {apellido},Telefono: {telefono}, Fecha: {fecha}, Origen: {origen},Destino: {destino}, Valor: {valor}");
         }
         public DataTable ListarVentas()
         {
             DataTable dt = new DataTable();
             dt.Columns.Add("Id", typeof(int));
+            dt.Columns.Add("Nombre", typeof(string));
+            dt.Columns.Add("Apellido", typeof(string));
+            dt.Columns.Add("Telefono", typeof(int));
             dt.Columns.Add("Fecha", typeof(string));
             dt.Columns.Add("Origen", typeof(string));
             dt.Columns.Add("Destino", typeof(string));
@@ -33,15 +36,18 @@ namespace capaDatos
                 // Dividir la cadena por el separador (coma, punto y coma, etc.)
                 string[] campos = linea.Split(','); // Cambiar separador según tu formato
 
-                // Verificar que tenga exactamente 5 campos
-                if (campos.Length == 5)
+                // Verificar que tenga exactamente 8 campos
+                if (campos.Length == 8)
                 {
                     DataRow fila = dt.NewRow();
                     fila["Id"] = int.Parse(campos[0].Trim().Split(':')[1]);
-                    fila["Fecha"] = campos[1].Trim();
-                    fila["Origen"] = campos[2].Trim();
-                    fila["Destino"] = campos[3].Trim();
-                    fila["Valor"] = int.Parse(campos[4].Trim().Split(':')[1]);
+                    fila["Nombre"] = campos[1].Trim();
+                    fila["Apellido"] = campos[2].Trim();
+                    fila["Telefono"] = int.Parse(campos[3].Trim().Split(':')[1]);
+                    fila["Fecha"] = campos[4].Trim();
+                    fila["Origen"] = campos[5].Trim();
+                    fila["Destino"] = campos[6].Trim();
+                    fila["Valor"] = int.Parse(campos[7].Trim().Split(':')[1]);
 
                     dt.Rows.Add(fila);
                 }

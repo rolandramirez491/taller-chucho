@@ -24,11 +24,12 @@ namespace capaPresentacion
             txtNomb.Text = "";
             txtApell.Text = "";
             txtTel.Text = "";
+            btnBuscarliente.BackColor = System.Drawing.Color.LightGreen;
         }
 
         protected void btnGestionVentas_Click(object sender, EventArgs e)
         {
-            Response.Redirect("GestionVentas.aspx");
+            
         }
 
         protected void btnListarVentas_Click(object sender, EventArgs e)
@@ -39,6 +40,7 @@ namespace capaPresentacion
         protected void btnBuscarliente_Click(object sender, EventArgs e)
         {
             Response.Redirect("BuscarCliente.aspx");
+            btnListarVentas.Enabled = true;
         }
     }
 }

@@ -20,6 +20,7 @@ namespace capaPresentacion
             dgvListaVentas.DataSource = null;
             dgvListaVentas.DataSource = ventas.Listar();
             dgvListaVentas.DataBind();
+            btnAtras.BackColor = System.Drawing.Color.LightGreen;
         }
 
         protected void btnAtras_Click(object sender, EventArgs e)

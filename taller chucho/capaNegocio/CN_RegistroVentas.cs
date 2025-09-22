@@ -17,9 +17,9 @@ namespace capaNegocio
         {
             registro.GuardarRegistro(id, nombre, apellido, telefono);
         }
-        public void Venta(int id, string fecha, string origen,string destino, int valor)
+        public void Venta(int id, string nombre,string apellido,int telefono,string fecha, string origen,string destino, int valor)
         {
-            ventas.GuardarVenta(id, fecha, origen,destino, valor);
+            ventas.GuardarVenta(id,nombre,apellido,telefono, fecha, origen,destino, valor);
         }
         public DataTable Listar()
         {
