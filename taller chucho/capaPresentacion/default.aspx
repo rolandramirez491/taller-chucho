@@ -20,6 +20,10 @@
             <asp:Label ID="lblTel" runat="server" Text="Telefono"></asp:Label>
             <asp:TextBox ID="txtTel" runat="server"></asp:TextBox>
             <asp:Button ID="btnGuardar" runat="server" Text="Guardar" OnClick="btnGuardar_Click" />
+            <asp:Label ID="lblcheck" runat="server" Text=" "></asp:Label>
+            <asp:Button ID="btnGestionVentas" runat="server" Text="Gestion De Ventas" OnClick="btnGestionVentas_Click" />
+            <asp:Button ID="btnListarVentas" runat="server" Text="Listar Ventas" OnClick="btnListarVentas_Click" />
+            <asp:Button ID="btnBuscarliente" runat="server" Text="Buscar Cliente" OnClick="btnBuscarliente_Click" />
         </div>
     </form>
 </body>

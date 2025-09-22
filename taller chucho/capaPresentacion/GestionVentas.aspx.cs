@@ -18,7 +18,18 @@ namespace capaPresentacion
 
         protected void btnRegistrar_Click(object sender, EventArgs e)
         {
-            ventas.Venta(int.Parse(txtId.Text), txtFecha.Text, txtOrigen.Text,txtDestino , int.Parse(txtValor.Text));
+            ventas.Venta(int.Parse(txtId.Text), txtFecha.Text, txtOrigen.Text,txtDestino.Text , int.Parse(txtValor.Text));
+            lblExito.Text = "Venta registrada con exito!";
+            txtId.Text = "";
+            txtFecha.Text = "";
+            txtOrigen.Text = "";
+            txtDestino.Text = "";
+            txtValor.Text = "";
+        }
+
+        protected void btnAtras_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("default.aspx");
         }
     }
 }

@@ -13,9 +13,11 @@
             <asp:Label ID="lblId" runat="server" Text="Identificacion"></asp:Label>
             <asp:TextBox ID="txtId" runat="server"></asp:TextBox>
             <asp:Button ID="btnBuscar" runat="server" Text="Buscar Cliente" OnClick="btnBuscar_Click" />
-            <asp:Label ID="lblNombC" runat="server" Text=""></asp:Label>
-            <asp:Label ID="lblApellC" runat="server" Text=""></asp:Label>
-            <asp:Label ID="lblTelC" runat="server" Text=""></asp:Label>
+            <asp:Button ID="btnAtras" runat="server" Text="Atras" OnClick="btnAtras_Click" />
+            <asp:Label ID="lblNombC" runat="server" Text=" "></asp:Label>
+            <asp:Label ID="lblApellC" runat="server" Text=" "></asp:Label>
+            <asp:Label ID="lblTelC" runat="server" Text=" "></asp:Label>
+            <asp:GridView ID="dgvBuscar" runat="server"></asp:GridView>
         </div>
     </form>
 </body>

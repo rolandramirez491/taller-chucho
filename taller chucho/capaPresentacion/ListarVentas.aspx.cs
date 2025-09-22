@@ -14,11 +14,17 @@ namespace capaPresentacion
         {
 
         }
-        CN_RegistroVentas listasV = new CN_RegistroVentas();
+        CN_RegistroVentas ventas = new CN_RegistroVentas();
         protected void btnListar_Click(object sender, EventArgs e)
         {
             dgvListaVentas.DataSource = null;
-            dgvListaVentas.DataSource = listasV.Listar();
+            dgvListaVentas.DataSource = ventas.Listar();
+            dgvListaVentas.DataBind();
+        }
+
+        protected void btnAtras_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("default.aspx");
         }
     }
 }

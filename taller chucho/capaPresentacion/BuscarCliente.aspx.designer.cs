@@ -51,6 +51,15 @@ namespace capaPresentacion
         protected global::System.Web.UI.WebControls.Button btnBuscar;
 
         /// <summary>
+        /// Control btnAtras.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnAtras;
+
+        /// <summary>
         /// Control lblNombC.
         /// </summary>
         /// <remarks>
@@ -76,5 +85,14 @@ namespace capaPresentacion
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblTelC;
+
+        /// <summary>
+        /// Control dgvBuscar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView dgvBuscar;
     }
 }

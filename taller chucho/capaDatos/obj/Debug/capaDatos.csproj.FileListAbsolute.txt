@@ -1,0 +1,6 @@
+C:\Users\jardp\Documents\GitHub\taller-chucho\taller chucho\capaDatos\bin\Debug\capaDatos.dll
+C:\Users\jardp\Documents\GitHub\taller-chucho\taller chucho\capaDatos\bin\Debug\capaDatos.pdb
+C:\Users\jardp\Documents\GitHub\taller-chucho\taller chucho\capaDatos\obj\Debug\capaDatos.csproj.AssemblyReference.cache
+C:\Users\jardp\Documents\GitHub\taller-chucho\taller chucho\capaDatos\obj\Debug\capaDatos.csproj.CoreCompileInputs.cache
+C:\Users\jardp\Documents\GitHub\taller-chucho\taller chucho\capaDatos\obj\Debug\capaDatos.dll
+C:\Users\jardp\Documents\GitHub\taller-chucho\taller chucho\capaDatos\obj\Debug\capaDatos.pdb

@@ -11,13 +11,14 @@ namespace capaDatos
     public class CD_RegistroVentas
     {
         private static List<string> registro = new List<string>();
+        private static List<string> registroV = new List<string>();
         public void GuardarRegistro(int id,string nombre,string apellido,int telefono)
         {
             registro.Add($"ID: {id}, Nombre: {nombre}, Apellido: {apellido}, Teléfono: {telefono}");
         }
         public void GuardarVenta(int id, string fecha, string origen,string destino, int valor)
         {
-            registro.Add($"ID: {id}, Fecha: {fecha}, Origen: {origen},Destino: {destino}, Valor: {valor}");
+            registroV.Add($"ID: {id}, Fecha: {fecha}, Origen: {origen},Destino: {destino}, Valor: {valor}");
         }
         public DataTable ListarVentas()
         {
@@ -27,7 +28,7 @@ namespace capaDatos
             dt.Columns.Add("Origen", typeof(string));
             dt.Columns.Add("Destino", typeof(string));
             dt.Columns.Add("Valor", typeof(int));
-            foreach (string linea in registro)
+            foreach (string linea in registroV)
             {
                 // Dividir la cadena por el separador (coma, punto y coma, etc.)
                 string[] campos = linea.Split(','); // Cambiar separador según tu formato
@@ -36,11 +37,11 @@ namespace capaDatos
                 if (campos.Length == 5)
                 {
                     DataRow fila = dt.NewRow();
-                    fila["Id"] = Convert.ToInt32(campos[0].Trim());
+                    fila["Id"] = int.Parse(campos[0].Trim().Split(':')[1]);
                     fila["Fecha"] = campos[1].Trim();
                     fila["Origen"] = campos[2].Trim();
                     fila["Destino"] = campos[3].Trim();
-                    fila["Valor"] = Convert.ToInt32(campos[4].Trim());
+                    fila["Valor"] = int.Parse(campos[4].Trim().Split(':')[1]);
 
                     dt.Rows.Add(fila);
                 }
@@ -49,40 +50,40 @@ namespace capaDatos
             return dt;
 
         }
-        public DataRow BuscarCliente(int idFind)
+        public DataTable BuscarCliente(int idFind)
         {
             // Crear DataTable con las columnas necesarias
+
+
             DataTable dt = new DataTable();
             dt.Columns.Add("Id", typeof(int));
-            dt.Columns.Add("Fecha", typeof(string));
-            dt.Columns.Add("Origen", typeof(string));
-            dt.Columns.Add("Destino", typeof(string));
-            dt.Columns.Add("Valor", typeof(int));
-
+            dt.Columns.Add("Nombre", typeof(string));
+            dt.Columns.Add("Apellido", typeof(string));
+            dt.Columns.Add("Telefono", typeof(int));
             foreach (string linea in registro)
             {
-                // Dividir la línea por comas
-                string[] campos = linea.Split(',');
+                // Dividir la cadena por el separador (coma, punto y coma, etc.)
+                string[] campos = linea.Split(','); // Cambiar separador según tu formato
 
-                // Convertir el primer campo (ID) a número
-                int id = int.Parse(campos[0]);
-
-                // Comparar si es igual al ID buscado
-                if (id == idFind)
+                // Verificar que tenga exactamente 5 campos
+                if (campos.Length == 4)
                 {
-                    // Crear nueva fila con los datos encontrados
-                    DataRow nuevaFila = dt.NewRow();
-                    nuevaFila["Id"] = int.Parse(campos[0].Trim());
-                    nuevaFila["Fecha"] = campos[1].Trim();
-                    nuevaFila["Origen"] = campos[2].Trim();
-                    nuevaFila["Destino"] = campos[3].Trim();
-                    nuevaFila["Valor"] = int.Parse(campos[4].Trim());
+                    DataRow fila = dt.NewRow();
+                    fila["Id"] = int.Parse(campos[0].Trim().Split(':')[1]);
+                    fila["Nombre"] = campos[1].Trim();
+                    fila["Apellido"] = campos[2].Trim();
+                    fila["Telefono"] = int.Parse(campos[3].Trim().Split(':')[1]);
 
-                    return nuevaFila; // Devolver el DataRow
+                    dt.Rows.Add(fila);
                 }
             }
-
-            return null; // No se encontró
+            DataRow[] filasFiltradas = dt.Select($"Id = {idFind}");
+            DataTable dtFiltrado = dt.Clone();
+            foreach (DataRow fila in filasFiltradas)
+            {
+                dtFiltrado.ImportRow(fila);
+            }
+            return dtFiltrado;
         }
     }
 }

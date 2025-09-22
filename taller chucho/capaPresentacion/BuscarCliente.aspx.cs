@@ -18,7 +18,15 @@ namespace capaPresentacion
         {
             int id = int.Parse(txtId.Text);
 
+            dgvBuscar.DataSource = null;
+            dgvBuscar.DataSource = registro.Buscar(id);
+            dgvBuscar.DataBind();
 
+        }
+
+        protected void btnAtras_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("default.aspx");
         }
     }
 }

@@ -11,7 +11,7 @@ namespace capaNegocio
     {
         CD_RegistroVentas registro = new CD_RegistroVentas();
         CD_RegistroVentas ventas = new CD_RegistroVentas();
-        CD_RegistroVentas listasV = new CD_RegistroVentas();
+
 
         public void Guardar(int id, string nombre, string apellido, int telefono)
         {
@@ -23,11 +23,11 @@ namespace capaNegocio
         }
         public DataTable Listar()
         {
-            return listasV.ListarVentas();
+            return ventas.ListarVentas();
         }
-        public DataRow Buscar(int id)
+        public DataTable Buscar(int id)
         {
-            return ventas.BuscarCliente(id);
+            return registro.BuscarCliente(id);
         }
     }
 }

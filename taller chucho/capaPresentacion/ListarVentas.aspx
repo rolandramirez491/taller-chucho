@@ -11,6 +11,7 @@
     <form id="form1" runat="server">
         <div>
             <asp:Button ID="btnListar" runat="server" Text="Listar ventas" OnClick="btnListar_Click" />
+            <asp:Button ID="btnAtras" runat="server" Text="Atras" OnClick="btnAtras_Click" />
             <asp:GridView ID="dgvListaVentas" runat="server"></asp:GridView>
         </div>
     </form>
